@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,14 @@
     "express": "^4.21.1",
     "mysql": "^2.18.1"
   },
-  "description": ""
+  "description": "Este es el backend para el proyecto de App vinos, que proporciona una API RESTful para manejar productos (vinos) almacenados en una base de datos. El backend está construido con Node.js y utiliza Express.js como framework de servidor. La base de datos es MySQL.",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeroJuarez/Back-App-wines.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VeroJuarez/Back-App-wines/issues"
+  },
+  "homepage": "https://github.com/VeroJuarez/Back-App-wines#readme"
 }
